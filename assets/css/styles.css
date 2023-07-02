@@ -1,0 +1,100 @@
+/* 
+Open sans regular, medium bold
+Dosis medium, bold
+
+Regular -> 400
+Medium -> 500
+Bold -> 700 
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Dosis",
+		sans-serif;
+	font-family: "Open Sans",
+		sans-serif;
+	text-align: center;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	margin: 64px auto;
+}
+
+h1 {
+	font-family: "Dosis";
+	font-weight: 500;
+	color: #3f3d56;
+}
+
+h1 > span {
+	font-weight: 700;
+	color: #ee24ff;
+}
+
+.text {
+	font-family: "Open Sans";
+	color: #828282;
+	font-size: 15px;
+	line-height: 22px;
+	margin: auto;
+}
+
+.sizing {
+	width: 540px;
+	height: 107px;
+	margin-bottom: 32px;
+}
+
+#pacotes,
+#precos {
+	color: #3f3d56;
+	font-weight: 700;
+}
+
+#flutuar {
+	font-weight: 700;
+	font-size: 15px;
+	color: #828282;
+}
+
+.line {
+	width: 391px;
+	height: 0;
+	border: solid 1px #eceff2;
+	margin: 0 auto 8px;
+}
+
+footer {
+	margin-top: 64px;
+}
+
+a {
+	margin-left: 42px;
+	color: #3f3d56;
+	text-decoration: none;
+	text-shadow: 0px 4px
+		rgba(130, 130, 130, 0.2);
+}
+
+.links {
+	display: inline;
+	width: 66px;
+	font-weight: 700;
+	height: 15.169px;
+	line-height: 147.682%;
+}
+
+.waves-bottom {
+	width: 100%;
+	height: 104px;
+	position: fixed;
+	bottom: 0;
+	align-items: center;
+}
